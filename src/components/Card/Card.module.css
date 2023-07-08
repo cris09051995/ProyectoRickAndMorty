@@ -1,0 +1,22 @@
+.card {
+    width: fit-content;
+    box-shadow: -10px 14px 19px -3px rgba(0,0,0,0.71);
+    -webkit-box-shadow: -10px 14px 19px -3px rgba(0,0,0,0.71);
+    -moz-box-shadow: -10px 14px 19px -3px rgba(0,0,0,0.71);
+    text-shadow: -4px 4px 5px rgba(0,0,0,0.59);
+    display: flex;
+    flex-direction: column;
+    padding: 3px 10px;
+    border: rgb(2, 23, 26) 5px solid;
+    border-radius: 20px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVQblRZc4Wa5EWK7Nb723LIV_KWpq0hZb9xXF8OR3liVdxzQmgYq5Fl33HI8iO6oefLjI&usqp=CAU);
+}
+
+.boton {
+    border: rgb(2, 23, 26) 5px solid;
+    border-radius: 20px;
+    text-shadow: -4px 4px 5px rgba(0,0,0,0.59) ;
+    background-color: rgb(3, 3, 3) 5px solid;
+    cursor: pointer;
+}
+

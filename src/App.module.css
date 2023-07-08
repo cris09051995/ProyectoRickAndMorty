@@ -1,0 +1,18 @@
+.App {
+   background-image: url(https://www.xtrafondos.com/wallpapers/resized/rick-3248.jpg?s=large);
+   text-align: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin: 0;
+   height: 100vh;
+   padding: 25px;
+}
+
+.nav {
+   background-color: red;
+   padding: 1em;
+   display: flex;
+   flex-direction: row;
+   justify-content: end;
+   margin-bottom: 1em;
+}
