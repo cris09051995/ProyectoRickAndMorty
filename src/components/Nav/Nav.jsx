@@ -1,6 +1,10 @@
-import SearchBar from "../SearchBar/SearchBar.jsx"
-
-function Nav () {
-    <SearchBar onSearch={(characterID) => window.alert(characterID)} />
+import SearchBar from "./SearchBar/SearchBar.jsx"
+import style from "./Nav.module.css"
+import React from "react";
+export default function Nav (props) {
+    return (
+        <div className= {style.container}>
+            <SearchBar onSearch={props.onSearch} />
+        </div>
+    );
 }
-export default Nav

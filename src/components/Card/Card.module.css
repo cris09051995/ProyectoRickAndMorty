@@ -1,15 +1,16 @@
 .card {
-    width: fit-content;
-    box-shadow: -10px 14px 19px -3px rgba(0,0,0,0.71);
-    -webkit-box-shadow: -10px 14px 19px -3px rgba(0,0,0,0.71);
-    -moz-box-shadow: -10px 14px 19px -3px rgba(0,0,0,0.71);
+    width: 18vw;
+    height: 18vh;
     text-shadow: -4px 4px 5px rgba(0,0,0,0.59);
-    display: flex;
+    padding: 0 0 5rem 0;
+    border-radius: 0.4rem;
     flex-direction: column;
-    padding: 3px 10px;
-    border: rgb(2, 23, 26) 5px solid;
-    border-radius: 20px;
+    align-items: center;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVQblRZc4Wa5EWK7Nb723LIV_KWpq0hZb9xXF8OR3liVdxzQmgYq5Fl33HI8iO6oefLjI&usqp=CAU);
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    margin: 0.5rem;
 }
 
 .boton {
